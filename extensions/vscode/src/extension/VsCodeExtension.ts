@@ -588,7 +588,7 @@ export class VsCodeExtension {
     // Listen for editor changes to clean up decorations when editor closes.
     vscode.window.onDidChangeVisibleTextEditors(async () => {
       // If our active editor is no longer visible, clear decorations.
-      console.log("deleteChain called from onDidChangeVisibleTextEditors");
+      console.debug("deleteChain called from onDidChangeVisibleTextEditors");
       await NextEditProvider.getInstance().deleteChain();
     });
 

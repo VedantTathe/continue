@@ -41,6 +41,7 @@
     "@types/uuid": "^10.0.0",
     "anser": "^2.3.2",
     "clsx": "^2.1.1",
+    "continue": "file:..",
     "core": "file:../core",
     "diff": "^8.0.2",
     "dompurify": "^3.0.6",

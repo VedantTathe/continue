@@ -79,6 +79,7 @@
     "cheerio": "^1.0.0-rc.12",
     "commander": "^12.0.0",
     "comment-json": "^4.2.3",
+    "continue": "file:..",
     "dbinfoz": "^0.14.0",
     "diff": "^8.0.3",
     "dotenv": "^16.4.5",
